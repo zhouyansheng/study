@@ -29,6 +29,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.0"
+  cached_network_image:
+    dependency: "direct main"
+    description:
+      name: cached_network_image
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.2.0+1"
   charcode:
     dependency: transitive
     description:
@@ -36,6 +43,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.3"
+  clock:
+    dependency: transitive
+    description:
+      name: clock
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.1"
   collection:
     dependency: transitive
     description:
@@ -43,6 +57,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.14.12"
+  common_utils:
+    dependency: transitive
+    description:
+      name: common_utils
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.2.1"
   convert:
     dependency: transitive
     description:
@@ -64,16 +85,154 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.1.3"
+  decimal:
+    dependency: transitive
+    description:
+      name: decimal
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.3.5"
+  extended_image:
+    dependency: "direct main"
+    description:
+      name: extended_image
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.9.0"
+  extended_image_library:
+    dependency: transitive
+    description:
+      name: extended_image_library
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.2.3"
+  extended_list:
+    dependency: transitive
+    description:
+      name: extended_list
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.1"
+  extended_list_library:
+    dependency: transitive
+    description:
+      name: extended_list_library
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.1"
+  file:
+    dependency: transitive
+    description:
+      name: file
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "5.2.1"
+  flustars:
+    dependency: "direct main"
+    description:
+      name: flustars
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.2.6+1"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_cache_manager:
+    dependency: transitive
+    description:
+      name: flutter_cache_manager
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.4.1"
+  flutter_page_indicator:
+    dependency: transitive
+    description:
+      name: flutter_page_indicator
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.3"
+  flutter_plugin_android_lifecycle:
+    dependency: transitive
+    description:
+      name: flutter_plugin_android_lifecycle
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.8"
+  flutter_slidable:
+    dependency: "direct main"
+    description:
+      name: flutter_slidable
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.5.4"
+  flutter_splash_screen:
+    dependency: "direct main"
+    description:
+      name: flutter_splash_screen
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.1.0"
+  flutter_swiper:
+    dependency: "direct main"
+    description:
+      name: flutter_swiper
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.1.6"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  flutter_webview_plugin:
+    dependency: "direct main"
+    description:
+      name: flutter_webview_plugin
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.3.11"
+  fluttertoast:
+    dependency: "direct main"
+    description:
+      name: fluttertoast
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.1.3"
+  get:
+    dependency: "direct main"
+    description:
+      name: get
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.14.1"
+  http:
+    dependency: "direct main"
+    description:
+      name: http
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.12.1"
+  http_client_helper:
+    dependency: transitive
+    description:
+      name: http_client_helper
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.2.1"
+  http_parser:
+    dependency: transitive
+    description:
+      name: http_parser
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.1.4"
   image:
     dependency: transitive
     description:
@@ -81,6 +240,41 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.12"
+  image_picker:
+    dependency: "direct main"
+    description:
+      name: image_picker
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.6.7+4"
+  image_picker_platform_interface:
+    dependency: transitive
+    description:
+      name: image_picker_platform_interface
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.1.0"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.16.1"
+  loading_more_list:
+    dependency: "direct main"
+    description:
+      name: loading_more_list
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.0"
+  loading_more_list_library:
+    dependency: transitive
+    description:
+      name: loading_more_list_library
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
   matcher:
     dependency: transitive
     description:
@@ -95,6 +289,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.8"
+  open_iconic_flutter:
+    dependency: "direct main"
+    description:
+      name: open_iconic_flutter
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.3.0"
   path:
     dependency: transitive
     description:
@@ -102,6 +303,41 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.6.4"
+  path_provider:
+    dependency: transitive
+    description:
+      name: path_provider
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.6.11"
+  path_provider_linux:
+    dependency: transitive
+    description:
+      name: path_provider_linux
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.1+2"
+  path_provider_macos:
+    dependency: transitive
+    description:
+      name: path_provider_macos
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.4+3"
+  path_provider_platform_interface:
+    dependency: transitive
+    description:
+      name: path_provider_platform_interface
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
+  pedantic:
+    dependency: transitive
+    description:
+      name: pedantic
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.9.0"
   petitparser:
     dependency: transitive
     description:
@@ -109,6 +345,41 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.4.0"
+  platform:
+    dependency: transitive
+    description:
+      name: platform
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.2.1"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
+  process:
+    dependency: transitive
+    description:
+      name: process
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.13"
+  provider:
+    dependency: "direct main"
+    description:
+      name: provider
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.2.0"
+  pull_to_refresh:
+    dependency: "direct main"
+    description:
+      name: pull_to_refresh
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.6.0"
   quiver:
     dependency: transitive
     description:
@@ -116,6 +387,69 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.3"
+  rational:
+    dependency: transitive
+    description:
+      name: rational
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.3.8"
+  rxdart:
+    dependency: transitive
+    description:
+      name: rxdart
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.24.1"
+  screen:
+    dependency: "direct main"
+    description:
+      name: screen
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.5"
+  share:
+    dependency: "direct main"
+    description:
+      name: share
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.6.4+3"
+  shared_preferences:
+    dependency: "direct main"
+    description:
+      name: shared_preferences
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.5.8"
+  shared_preferences_linux:
+    dependency: transitive
+    description:
+      name: shared_preferences_linux
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.2+1"
+  shared_preferences_macos:
+    dependency: transitive
+    description:
+      name: shared_preferences_macos
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.1+10"
+  shared_preferences_platform_interface:
+    dependency: transitive
+    description:
+      name: shared_preferences_platform_interface
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.4"
+  shared_preferences_web:
+    dependency: transitive
+    description:
+      name: shared_preferences_web
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.1.2+7"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -128,6 +462,20 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.7.0"
+  sqflite:
+    dependency: transitive
+    description:
+      name: sqflite
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.3.1"
+  sqflite_common:
+    dependency: transitive
+    description:
+      name: sqflite_common
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2+1"
   stack_trace:
     dependency: transitive
     description:
@@ -149,6 +497,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.5"
+  synchronized:
+    dependency: transitive
+    description:
+      name: synchronized
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.2.0+1"
   term_glyph:
     dependency: transitive
     description:
@@ -163,6 +518,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.2.15"
+  transformer_page_view:
+    dependency: transitive
+    description:
+      name: transformer_page_view
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.1.6"
   typed_data:
     dependency: transitive
     description:
@@ -170,6 +532,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.6"
+  uuid:
+    dependency: transitive
+    description:
+      name: uuid
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.2.0"
   vector_math:
     dependency: transitive
     description:
@@ -177,6 +546,20 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.8"
+  waterfall_flow:
+    dependency: transitive
+    description:
+      name: waterfall_flow
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.2"
+  xdg_directories:
+    dependency: transitive
+    description:
+      name: xdg_directories
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.1.0"
   xml:
     dependency: transitive
     description:
@@ -185,4 +568,5 @@ packages:
     source: hosted
     version: "3.6.1"
 sdks:
-  dart: ">=2.7.0 <3.0.0"
+  dart: ">=2.8.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
