@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutterstudy/discovery/discovery_page.dart';
+import 'package:flutterstudy/home/home_page.dart';
+import 'package:flutterstudy/mine/mine_page.dart';
+import 'package:flutterstudy/rank/rank_page.dart';
 import 'package:flutterstudy/util/constant.dart';
 import 'package:flutterstudy/util/toast_util.dart';
 
@@ -22,7 +26,10 @@ class _TabNavigationState extends State<TabNavigation> {
               controller: _pageController,
               physics: NeverScrollableScrollPhysics(),
               children: <Widget>[
-
+                  HomePage(),
+                  DiscoveryPage(),
+                  RankPage(),
+                  MinePage()
               ],
             ),
           bottomNavigationBar: BottomNavigationBar(
