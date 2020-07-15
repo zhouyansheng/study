@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 
-class DiscoveryPage extends StatefulWidget {
+class CommunityPage extends StatefulWidget {
   @override
-  _DiscoveryPageState createState() => _DiscoveryPageState();
+  _CommunityPageState createState() => _CommunityPageState();
 }
 
-class _DiscoveryPageState extends State<DiscoveryPage>
-    with SingleTickerProviderStateMixin, AutomaticKeepAliveClientMixin {
+class _CommunityPageState extends State<CommunityPage>
+    with AutomaticKeepAliveClientMixin {
 
 
   @override

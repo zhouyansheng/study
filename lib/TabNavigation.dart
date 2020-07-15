@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutterstudy/community/community_page.dart';
 import 'package:flutterstudy/discovery/discovery_page.dart';
 import 'package:flutterstudy/home/home_page.dart';
 import 'package:flutterstudy/mine/mine_page.dart';
@@ -27,7 +28,7 @@ class _TabNavigationState extends State<TabNavigation> {
               physics: NeverScrollableScrollPhysics(),
               children: <Widget>[
                   HomePage(),
-                  DiscoveryPage(),
+                  CommunityPage(),
                   RankPage(),
                   MinePage()
               ],
@@ -44,7 +45,7 @@ class _TabNavigationState extends State<TabNavigation> {
             items: [
               _bottomItem("首页", 'images/ic_home_normal.png',
                   'images/ic_home_selected.png', 0),
-              _bottomItem("发现", 'images/ic_discovery_normal.png',
+              _bottomItem("社区", 'images/ic_discovery_normal.png',
                   'images/ic_discovery_selected.png', 1),
               _bottomItem("精品", 'images/ic_hot_normal.png',
                   'images/ic_hot_selected.png', 2),
