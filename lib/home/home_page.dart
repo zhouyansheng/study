@@ -39,18 +39,6 @@ class _HomePageState extends State<HomePage>
     super.build(context);
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: SystemUiOverlayStyle.dark, //设置状态栏字体颜色
-//       appBar: AppBar(
-//         title: Text("首页",
-//           style:TextStyle(
-//               fontSize: 18,
-//               color: Colors.black,
-//             fontWeight: FontWeight.bold
-//           ),
-//         ),
-//         centerTitle:true,
-//         backgroundColor: Colors.white,
-//         elevation: 0,
-//       ),
       child: Column(
          children: <Widget>[
            Container(
